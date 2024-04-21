@@ -64,12 +64,12 @@ TextLabel.TextWrapped = true
 
 plus.Name = "plus"
 plus.Parent = Frame
-plus.BackgroundColor3 = Color3.fromRGB(133, 145, 255)
+plus.BackgroundColor3 = Color3.fromRGB(150, 64, 22)
 plus.Position = UDim2.new(0.231578946, 0, 0, 0)
 plus.Size = UDim2.new(0, 45, 0, 28)
 plus.Font = Enum.Font.SourceSans
 plus.Text = "+"
-plus.TextColor3 = Color3.fromRGB(0, 0, 0)
+plus.TextColor3 = Color3.fromRGB(255, 255, 255)
 plus.TextScaled = true
 plus.TextSize = 14.000
 plus.TextWrapped = true
@@ -136,8 +136,8 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "FLY GUI V3";
-	Text = "BY XNEO";
+	Title = "FLY GUI MINION";
+	Text = "BY SCRIPTS FROM MINION";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
 
